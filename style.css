@@ -20,6 +20,7 @@
     line-height: 100%;
     letter-spacing: 0%;
     font-weight: 500;
+    margin: 0px;
 }
 
 
@@ -41,7 +42,7 @@ header{
     
 }
 
-nav{
+nav, .search{
     width: 527px;
     height: 21px;
     display: flex;
@@ -62,18 +63,103 @@ button{
 
 .background_image{
     background-image: url(images/mountines.png);
+    background-repeat: no-repeat;
 }
 
 .logo{
     display: flex;
     align-items: center;
+    font-family: "Marga";
     width: 216px;
     height: 31px;  
 }
 
-.log_button{
+header button{
     width: 103px;
     height: 41px;
     font-family: "Red_Hat_Text";
     font-size: 16px;
+}
+
+.plan_your_trip{
+    width: 892px;
+    height: 422px;
+    margin-top: 32px;
+    margin-left: 120px;
+    margin-bottom: 301px;
+}
+
+.plan_your_trip h1{
+    font-family: "Aleo";
+    font-weight: 700;
+    font-size: 80px;
+    margin-bottom: 46px;
+}
+
+.plan_your_trip p{
+    font-family: "Aleo";
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 46px;
+}
+
+.search{
+    width: 892px;
+    height: 95px;
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    padding: 0px 18px 0px;
+}
+
+.search h3{
+    font-family: "Aleo";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    color: rgba(242, 120, 92, 1);
+    margin-left: 29px;
+}
+
+.search button{
+    width: 288px;
+    height: 59px;
+    font-family: "Red_Hat_Text";
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.threesteps h2{
+    text-align: center;
+    font-family: "Red_Hat_Text";
+    margin-bottom: 40px;
+    color: rgba(242, 120, 92, 1);
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.frame27{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1177px;
+    height: 154px;
+}
+
+.frame__{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frame__ h3{
+    font-family: "Aleo";
+    margin-top: 30px;
+    color: rgba(13, 96, 111, 1);
+    font-weight: 400;
+    font-size: 20px;
 }
