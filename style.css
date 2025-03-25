@@ -1,3 +1,79 @@
+@font-face {
+    font-family: "Aleo";
+    src: url("fonts/Aleo/Aleo-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Marga";
+    src: url("fonts/Magra/Magra-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Red_Hat_Text";
+    src: url("fonts/Red_Hat_Text/RedHatText-VariableFont_wght.ttf");
+}
+
+*{
+    color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-weight: 500;
+}
+
+
 body{
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 1440px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 90px;
+    background-position-x: center;
+    background-color: rgba(242, 120, 92, 0.7);
+    padding: 0px 120px 0px;
+    
+}
+
+nav{
+    width: 527px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Red_Hat_Text";
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px 196px 0px 158px;
+}
+
+button{
+    border-radius: 10px;
+    background-color: rgba(13, 96, 111, 1);
+    border: none;
+}
+
+.background_image{
+    background-image: url(images/mountines.png);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 216px;
+    height: 31px;  
+}
+
+.log_button{
+    width: 103px;
+    height: 41px;
+    font-family: "Red_Hat_Text";
+    font-size: 16px;
 }
