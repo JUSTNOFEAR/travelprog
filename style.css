@@ -23,6 +23,12 @@
     margin: 0px;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
 
 body{
     margin: 0;
@@ -130,7 +136,7 @@ header button{
     font-size: 24px;
 }
 
-.threesteps h2{
+.threesteps h2, .destinations h2{
     text-align: center;
     font-family: "Red_Hat_Text";
     margin-bottom: 40px;
@@ -140,6 +146,7 @@ header button{
 }
 
 .frame27{
+    margin-bottom: 97px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -162,4 +169,64 @@ header button{
     color: rgba(13, 96, 111, 1);
     font-weight: 400;
     font-size: 20px;
+}
+
+.destinations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 2520px;
+    height: 1042px;
+    padding: 0px;
+}
+
+.destinations_images{
+    margin: 0px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    width: 2520px;
+    height: 800px;
+}
+
+.destinations_images img{
+    border-radius: 16px;
+}
+
+.elipsebox{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    height: 20px;
+    margin-bottom: 40px;
+}
+
+.circle, .main_circkle{
+    background-color: rgba(242, 120, 92, 0.5);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.main_circkle{
+    background-color: rgba(242, 120, 92, 1);
+}
+
+.destinations button{
+    width: 228px;
+    height: 59px;
+    font-family: "Red_Hat_Text";
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.imagelistobj{
+    border-radius: 16px;
+    width: 800px;
+    height: 800px;
+    font-family: "Red_Hat_Text";
+    font-weight: 500;
+    font-size: 32px;
+    padding-top: 718px;
+    padding-left: 15px;
 }
