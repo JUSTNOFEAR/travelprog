@@ -68,16 +68,23 @@ button{
 }
 
 .background_image{
-    background-image: url(images/mountines.png);
     background-repeat: no-repeat;
 }
 
 .logo{
     display: flex;
     align-items: center;
-    font-family: "Marga";
     width: 216px;
     height: 31px;  
+}
+
+.logo h2{
+    margin: 0px 0px 0px 6px;
+    text-align: start;
+    font-family: "Marga";
+    font-weight: 600;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 1);
 }
 
 header button{
@@ -136,7 +143,7 @@ header button{
     font-size: 24px;
 }
 
-.threesteps h2, .destinations h2{
+h2{
     text-align: center;
     font-family: "Red_Hat_Text";
     margin-bottom: 40px;
@@ -212,7 +219,7 @@ header button{
     background-color: rgba(242, 120, 92, 1);
 }
 
-.destinations button{
+.destinations button, .stories_block button{
     width: 228px;
     height: 59px;
     font-family: "Red_Hat_Text";
@@ -229,4 +236,68 @@ header button{
     font-size: 32px;
     padding-top: 718px;
     padding-left: 15px;
+}
+
+.stories_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 1270px;
+}
+
+.onestory{
+    display: flex;
+    margin-top: 30px;
+    width: 1200px;
+    height: 250px;
+    
+}
+
+.onestory img{
+    margin-right: 40px;
+    border-radius: 16px;
+}
+
+.onestory p{
+    font-family: "Aleo";
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(13, 96, 111, 1);
+}
+
+span{
+    display: block;
+    font-family: "Aleo";
+    font-weight: 400;
+    font-size: 35px;
+    color: rgba(13, 96, 111, 1);
+}
+
+.read_more{
+    font-family: "Aleo";
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(13, 96, 111, 1);
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.stories .stories_block{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+footer{
+    text-align: center;
+    padding: 19px;
+    width: 1440px;
+    height: 61px;
+}
+
+footer p{
+    font-family: "Red_Hat_Text";
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0px;
 }
