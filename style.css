@@ -17,7 +17,7 @@
     color: rgba(255, 255, 255, 1);
     box-sizing: border-box;
     text-decoration: none;
-    line-height: 100%;
+    line-height: 1.2;
     letter-spacing: 0%;
     font-weight: 500;
     margin: 0px;
@@ -97,7 +97,7 @@ header button{
 .plan_your_trip{
     width: 892px;
     height: 422px;
-    margin-top: 42px;
+    margin-top: 32px;
     margin-left: 120px;
     margin-bottom: 301px;
 }
@@ -106,7 +106,7 @@ header button{
     font-family: "Aleo";
     font-weight: 700;
     font-size: 80px;
-    margin-bottom: 46px;
+    margin-bottom: 32px;
 }
 
 .plan_your_trip p{
@@ -136,7 +136,7 @@ header button{
 }
 
 .search button{
-    width: 288px;
+    width: 228px;
     height: 59px;
     font-family: "Red_Hat_Text";
     font-weight: 500;
@@ -153,7 +153,7 @@ h2{
 }
 
 .frame27{
-    margin-bottom: 97px;
+    margin-bottom: 105px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -189,8 +189,7 @@ h2{
 }
 
 .destinations_images{
-    margin: 0px;
-    margin-bottom: 24px;
+    margin: 10px 0px 24px 0px;
     display: flex;
     justify-content: space-between;
     width: 2520px;
@@ -245,6 +244,8 @@ h2{
     align-items: center;
     width: 1440px;
     height: 1270px;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .onestory{
@@ -284,9 +285,6 @@ span{
     text-decoration-style: solid;
 }
 
-.stories .stories_block{
-    background-color: rgba(255, 255, 255, 0.7);
-}
 
 
 footer{
